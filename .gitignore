@@ -1,0 +1,4 @@
+*__pycache__
+*.vscode
+misc/*
+!misc/dicom2stl.py

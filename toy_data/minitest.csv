@@ -1,0 +1,3 @@
+ID,sex,population,prefecture,environment,generation,age,latitude,longitude,island,captivity,age_y,generation.1,modality,parts,verts_path,data_type,stl_path
+PRI_1754,M,Takahama,Fukui,Captive,0.0,full,35.49,135.55,No,1,,0.0,mCT,mandible,PRI_1754.npy,test,PRI_1754.stl
+PRI_2115,F,WakasaS,Shimane,Captive,0.0,full,35.34,134.4,No,1,,0.0,hCT,mandible,PRI_2115.npy,test,PRI_2115.stl
