@@ -68,7 +68,7 @@ def voxel2mesh(voxels):
 	verts, faces, normals, values = skimage.measure.marching_cubes_lewiner(voxels, 0)
 	return verts, faces, normals, values
 
-def save_mesh(mesh, faces, save_path):
+def save_mesh(verts, faces, save_path):
 	obj = stl.mesh.Mesh(np.zeros(faces.shape[0], dtype=stl.mesh.Mesh.dtype))
 	for i, f in enumerate(faces):
 		for j in range(3):
